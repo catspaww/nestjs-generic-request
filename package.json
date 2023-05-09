@@ -1,0 +1,39 @@
+{
+  "name": "@catspaw/nestjs-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint --ext .js,.ts .",
+    "format": "prettier --write \"src/*.ts\""
+  },
+  "keywords": [
+    "generic",
+    "crud",
+    "nestjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catspaww/nestjs-generic-request.git"
+  },
+  "homepage": "https://github.com/catspaww/nestjs-generic-request#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "catspaww",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "class-validator": "^0.14.0",
+    "prettier": "^2.8.7",
+    "typeorm": "^0.3.14",
+    "typescript": "^5.0.4"
+  }
+}
